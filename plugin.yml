@@ -1,0 +1,14 @@
+name: is_Pm4
+main: Theslowaja\Is\Main
+author: Theslowaja 
+version: 1.0
+api: 4.0.0
+
+commands:
+  is:
+    description: is <your text>
+    permission: is.command
+
+permissions:
+  is.command:
+    default: true 
