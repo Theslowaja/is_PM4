@@ -48,8 +48,7 @@ class Main extends PluginBase{
             } else { 
                 $p->sendMessage("your not player");
             }
-        return true;
         }
-    return false;
+    return true;
     }
 }
