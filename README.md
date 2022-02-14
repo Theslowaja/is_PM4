@@ -4,5 +4,5 @@ system will answer yuor question with: yes, no, maybe yes, maybe no, maybe
 
 # Command
 
-/is <your question>
+/is (your question)
 
