@@ -5,5 +5,5 @@ branches:
 projects:
   is_PM4:
     path: ""
-    icon: "icon.png"
+    icon: "logo.png"
 ...
