@@ -25,7 +25,7 @@ class Main extends PluginBase{
                 if(isset($arg[0])){
                     $cht = implode(" ", $arg);
                     $this->getServer()->broadcastMessage(T::GREEN."Asker: ".$p->getName().T::GREEN."\nQuestion: ".T::RED."is ".$cht);
-                    switch(rand(0, 3)){
+                    switch(rand(0, 4)){
                        case 0:
                            $this->getServer()->broadcastMessage("answer: ".T::DARK_GREEN."yes");
                        break;
@@ -37,6 +37,9 @@ class Main extends PluginBase{
                        break;
                        case 3:
                            $this->getServer()->broadcastMessage("answer: ".T::GREEN."maybe yes"); 
+                       break;
+                       case 4:
+                           $this->getServer()->broadcastMessage("answer: ".T::GREEN."maybe"); 
                        break;
                     }
                 }else{
